@@ -8,20 +8,29 @@
 
 /* Begin PBXBuildFile section */
 		C18901C61F0A28F8006C11C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18901C51F0A28F8006C11C4 /* AppDelegate.swift */; };
-		C18901C81F0A28F8006C11C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18901C71F0A28F8006C11C4 /* ViewController.swift */; };
 		C18901CB1F0A28F8006C11C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C18901C91F0A28F8006C11C4 /* Main.storyboard */; };
 		C18901CD1F0A28F8006C11C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C18901CC1F0A28F8006C11C4 /* Assets.xcassets */; };
 		C18901D01F0A28F8006C11C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C18901CE1F0A28F8006C11C4 /* LaunchScreen.storyboard */; };
+		C18901DD1F0A2B48006C11C4 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C18901DA1F0A2B48006C11C4 /* Info.plist */; };
+		C18901DE1F0A2B48006C11C4 /* LoadingScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18901DC1F0A2B48006C11C4 /* LoadingScreenVC.swift */; };
+		C18901E21F0A2D73006C11C4 /* ListClientsTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18901E11F0A2D73006C11C4 /* ListClientsTVC.swift */; };
+		C18901E61F0A39E2006C11C4 /* ClientLastMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18901E51F0A39E2006C11C4 /* ClientLastMessageCell.swift */; };
+		C18901E81F0A3C80006C11C4 /* ListClients.plist in Resources */ = {isa = PBXBuildFile; fileRef = C18901E71F0A3C7F006C11C4 /* ListClients.plist */; };
+		C18901EA1F0A47FC006C11C4 /* CustomSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18901E91F0A47FC006C11C4 /* CustomSegue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C18901C21F0A28F8006C11C4 /* TestfulApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestfulApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C18901C51F0A28F8006C11C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C18901C71F0A28F8006C11C4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C18901CA1F0A28F8006C11C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C18901CC1F0A28F8006C11C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C18901CF1F0A28F8006C11C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		C18901D11F0A28F8006C11C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C18901DA1F0A2B48006C11C4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C18901DC1F0A2B48006C11C4 /* LoadingScreenVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingScreenVC.swift; sourceTree = "<group>"; };
+		C18901E11F0A2D73006C11C4 /* ListClientsTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListClientsTVC.swift; sourceTree = "<group>"; };
+		C18901E51F0A39E2006C11C4 /* ClientLastMessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClientLastMessageCell.swift; sourceTree = "<group>"; };
+		C18901E71F0A3C7F006C11C4 /* ListClients.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ListClients.plist; sourceTree = "<group>"; };
+		C18901E91F0A47FC006C11C4 /* CustomSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSegue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +64,41 @@
 			isa = PBXGroup;
 			children = (
 				C18901C51F0A28F8006C11C4 /* AppDelegate.swift */,
-				C18901C71F0A28F8006C11C4 /* ViewController.swift */,
+				C18901DB1F0A2B48006C11C4 /* ViewControllers */,
+				C18901E41F0A39B5006C11C4 /* Views */,
 				C18901C91F0A28F8006C11C4 /* Main.storyboard */,
-				C18901CC1F0A28F8006C11C4 /* Assets.xcassets */,
 				C18901CE1F0A28F8006C11C4 /* LaunchScreen.storyboard */,
-				C18901D11F0A28F8006C11C4 /* Info.plist */,
+				C18901CC1F0A28F8006C11C4 /* Assets.xcassets */,
+				C18901D91F0A2B48006C11C4 /* Supports */,
 			);
 			path = TestfulApp;
+			sourceTree = "<group>";
+		};
+		C18901D91F0A2B48006C11C4 /* Supports */ = {
+			isa = PBXGroup;
+			children = (
+				C18901DA1F0A2B48006C11C4 /* Info.plist */,
+				C18901E71F0A3C7F006C11C4 /* ListClients.plist */,
+				C18901E91F0A47FC006C11C4 /* CustomSegue.swift */,
+			);
+			path = Supports;
+			sourceTree = "<group>";
+		};
+		C18901DB1F0A2B48006C11C4 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C18901DC1F0A2B48006C11C4 /* LoadingScreenVC.swift */,
+				C18901E11F0A2D73006C11C4 /* ListClientsTVC.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		C18901E41F0A39B5006C11C4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C18901E51F0A39E2006C11C4 /* ClientLastMessageCell.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,9 +161,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C18901DD1F0A2B48006C11C4 /* Info.plist in Resources */,
 				C18901D01F0A28F8006C11C4 /* LaunchScreen.storyboard in Resources */,
 				C18901CD1F0A28F8006C11C4 /* Assets.xcassets in Resources */,
 				C18901CB1F0A28F8006C11C4 /* Main.storyboard in Resources */,
+				C18901E81F0A3C80006C11C4 /* ListClients.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +176,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C18901C81F0A28F8006C11C4 /* ViewController.swift in Sources */,
 				C18901C61F0A28F8006C11C4 /* AppDelegate.swift in Sources */,
+				C18901DE1F0A2B48006C11C4 /* LoadingScreenVC.swift in Sources */,
+				C18901E61F0A39E2006C11C4 /* ClientLastMessageCell.swift in Sources */,
+				C18901EA1F0A47FC006C11C4 /* CustomSegue.swift in Sources */,
+				C18901E21F0A2D73006C11C4 /* ListClientsTVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,7 +304,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Z87YVCG8CV;
-				INFOPLIST_FILE = TestfulApp/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/TestfulApp/Supports/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = bigdig.TestfulApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -275,7 +318,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Z87YVCG8CV;
-				INFOPLIST_FILE = TestfulApp/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/TestfulApp/Supports/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = bigdig.TestfulApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
