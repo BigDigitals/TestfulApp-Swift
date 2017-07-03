@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>Alex Moren</string>
+		<key>date</key>
+		<string>1498823803</string>
+		<key>message</key>
+		<string>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec suscipit quam justo, ut scelerisque augue ullamcorper ac. Etiam ornare lorem non nunc condimentum, id sollicitudin eros viverra.</string>
+		<key>new_messages</key>
+		<integer>0</integer>
+		<key>avatar</key>
+		<string>logo</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Nick Semuel</string>
+		<key>date</key>
+		<string>1498823803</string>
+		<key>message</key>
+		<string>Nice to meet you!</string>
+		<key>new_messages</key>
+		<integer>1</integer>
+		<key>avatar</key>
+		<string>logo</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Patrik Musley</string>
+		<key>date</key>
+		<string>1498823000</string>
+		<key>message</key>
+		<string>No! I cannt do this</string>
+		<key>new_messages</key>
+		<integer>2</integer>
+		<key>avatar</key>
+		<string>logo</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Muller</string>
+		<key>date</key>
+		<string>1498822803</string>
+		<key>message</key>
+		<string>What happens?</string>
+		<key>new_messages</key>
+		<integer>0</integer>
+		<key>avatar</key>
+		<string>logo</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>James Bond</string>
+		<key>date</key>
+		<string>1498723803</string>
+		<key>message</key>
+		<string>Hello! How are you?</string>
+		<key>New item</key>
+		<string>Nice to meet you!</string>
+		<key>new_messages</key>
+		<integer>3</integer>
+		<key>avatar</key>
+		<string>logo</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Katine Nilson</string>
+		<key>date</key>
+		<string>1498623803</string>
+		<key>message</key>
+		<string>Before this moment millions of applications</string>
+		<key>new_messages</key>
+		<integer>0</integer>
+		<key>avatar</key>
+		<string>logo</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Brad Hulfiger</string>
+		<key>date</key>
+		<string>1498523800</string>
+		<key>message</key>
+		<string>No, no, no... Why you here?</string>
+		<key>new_messages</key>
+		<integer>0</integer>
+		<key>avatar</key>
+		<string>logo</string>
+	</dict>
+</array>
+</plist>
